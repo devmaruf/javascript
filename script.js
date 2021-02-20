@@ -1,3 +1,4 @@
+//------Logic condition------Chapter 1-----------
 console.log('Hello world');
 console.log(49);// 49 number 
 console.log('My age is '+ 90);//number+number=number--string+number=string
@@ -142,6 +143,7 @@ console.log(date.getFullYear());
 console.log(date.getHours());
 console.log(date.getMilliseconds());
 console.log(date.getTime());
+
 
 
 
