@@ -251,4 +251,4 @@ function mutiplyByFive(n){
 function add(a,b) {
     return a+b;
 }
-print(mutiplyByFive(add(5,4)))
+print(multiplyByFive(add(5,4)))
