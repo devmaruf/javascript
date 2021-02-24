@@ -11,5 +11,5 @@ test.bind({x:20,y:30},5,10)()//this bind with our object and arguments|(argument
 // bind don't call the function immediately, it only bind with our object and arguments
 //for invoke the function you have to store the function in variable and use console.log function and use direct ()call with function pranthesis
 // Such As
-var res = test.bind({x:20,y:30},5,10);
-console.log(res.constructor);
+var res = test.bind({x:20,y:30});
+console.log(res(5,7));
